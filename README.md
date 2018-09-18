@@ -8,6 +8,8 @@ SSDT-X99-ANS1.aml: onboard NVME controller ANS1 PCI implementation
 
 SSDT-X99-SAT1.aml: onboard AHCI SATA controller SAT1 PCI implementation
 
+SSDT-X99-EVSS.aml: onboard AHCI SATA Controller EVSS PCI implementation
+
 SSDT-X99-USBX.aml: Fixing USB Power Errors on system boot
 
 SSDT-X99-XHCI.aml: onboard Intel X99-A II Chipset USB3.0 extensible Host Controller XHCI PCI implementations
@@ -31,3 +33,28 @@ SSDT-X99-X540-T1.aml: Intel X540-T1 10GB NIC PCIe Slot-6 XGBE PCI implementation
 SSDT-X99-P2EI0G-2T.aml: Small-Tree P2EI0G-2T 10GB NIC PCIe Slot-6 XGBE and XGBF PCI implementations
 
 SSDT-DTPG.aml: DTPG PCI implementation (required for all SSDTs listed above)
+
+
+#Set of X99-SSDTS requires the following config.plist ACPI DSDT patch replacements:
+
+Comment: / Find*[HEX] / Replace[Hex]
+
+_OSI -> XOSI / 5F4F5349 / 584F5349
+
+EC0_ -> EC__ / 4543305F / 45435F5F
+
+H_EC -> EC__ / 485F4543 / 45435F5F
+
+HEC1 -> IMEI / 48454331 / 494D4549
+
+IDER -> MEID / 49444552 / 4D454944
+
+LPC0 -> LPCB / 4C504330 / 4C504342
+
+FPU_ -> MATH / 4650555F / 4D415448
+
+TMR_ -> TIMR / 544D525F / 54494D52
+
+PIC_ -> IPIC / 5049435F / 49504943
+
+_DSM -> XDSM / 5F44534D / 5844534D
