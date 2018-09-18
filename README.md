@@ -1,6 +1,6 @@
 # X99-System-SSDTs
 
-#Collection of X99 System SSDTs for ASUS X99-A II:
+# Collection of X99 System SSDTs for ASUS X99-A II:
 
 SSDT-X99-HDEF.aml: onboard Realtek ALC 1150 Audio Controller HDEF PCI implementation
 
@@ -35,7 +35,7 @@ SSDT-X99-P2EI0G-2T.aml: Small-Tree P2EI0G-2T 10GB NIC PCIe Slot-6 XGBE and XGBF 
 SSDT-DTPG.aml: DTPG PCI implementation (required for all SSDTs listed above)
 
 
-#Set of X99-SSDTS requires the following config.plist ACPI DSDT patch replacements:
+# Set of X99-SSDTS requires the following config.plist ACPI DSDT patch replacements:
 
 Comment: / Find*[HEX] / Replace[Hex]
 
