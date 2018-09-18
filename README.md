@@ -58,3 +58,10 @@ TMR_ -> TIMR / 544D525F / 54494D52
 PIC_ -> IPIC / 5049435F / 49504943
 
 _DSM -> XDSM / 5F44534D / 5844534D
+
+
+# Acknowledgements: 
+
+Special thanks to Apfelnico and nMano for all substantial and always kind contributions. 
+
+Partial contributions of Mork vom Ork, Matthew82, Maleorderbridge, TheRacerMaster, Crismac2013 and LeleTuratti to SSDT-X99-TB3HP.aml might also be mentioned in addition.
