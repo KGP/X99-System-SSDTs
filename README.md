@@ -27,7 +27,7 @@ Collection of X99 System `SSDTs` for the ASUS X99-A II.
 | `SSDT-X99-Vega56.aml` | AMD Radeon RX Vega 56 PCIe Slot-1 GFX0 and HDAU PCI implementation (MSI RX VEGA 56 Air Boost OC |
 | `SSDT-X99-RX580.aml` | AMD Radeon RX 580 PCIe Slot-1 GFX0 and HDAU PCI implementation |
 | `SSDT-X99-RX560.aml` | AMD Radeon RX 560 PCIe Slot-1 GFX0 and HDAU PCI implementation |
-| `SSDT-X99-Radeon-VII.aml` | AMD Radeon VII PCIe Slot-1 GFX0 and HDAU PCI implementation |
+| `SSDT-X99-Radeon-VII.aml` | AMD Radeon VII PCIe Slot-1 GFX0 and HDAU PCI implementation for use with modified Whatevergreen Source Code distrubution also considering Radeon VII|
 | `SSDT-X99-Nvidia.aml` | Nvidia PCIe Slot-1 GFX0 and HDAU PCI implementation |
 | `SSDT-X99-ARPT.aml` | OSXWIFI Broadcom BCM94360CD BT/WIFI PCIe Slot-5 ARPT PCI implementation |
 | `SSDT-X99-TB3HP.aml` | GC-Titan Ridge/GC-Alpine Ridge/ASUS TBEX 3 TB3/USB-C Hotplug Injector Slot-4 PCI implementation |
